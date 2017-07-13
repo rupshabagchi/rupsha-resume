@@ -2,7 +2,7 @@
 
 A compact two column, one page Latex Resume. It can also be used as a template. 
 
-## Requirements and Compilation
+#### Requirements and Compilation
 
 * AltaCV uses [`fontawesome`](http://www.ctan.org/pkg/fontawesome) and [`academicons`](http://www.ctan.org/pkg/academicons); they're included in both TeX Live 2016 and MikTeX 2.9.
 * Loading `academicons` is optional: enable it by adding the `academicons` option to `\documentclass`.
