@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options. 
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages. 
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Rupsha Bagchi}
+\tagline{Full Stack Web Dev}
+\photo{2.5cm}{rupsha.jpg}
+\personalinfo{%
+  \email{rupsha.bagchi@gmail.com}
+  \location{Espoo, Finland}
+  \linkedin{linkedin.com/in/rupshabagchi}
+  \github{github.com/rupshabagchi} 
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{Web Developer}{Servoped}{April 2017 -- Ongoing}{Vantaa, Finland}
+\begin{itemize}
+\item Web application development. Working with the website and dashboard.
+\item Tech stack: Javascript, Jquery, Gulp, SASS, Node, React, Express, Mocha
+\end{itemize}
+
+\divider
+
+\cvevent{Thesis Researcher}{Ericsson}{June 2016 -- Mar 2017}{Kirkkonummi, Finland}
+\begin{itemize}
+\item Research project on Internet of Things (IoT) and blockchains. 
+\item Implemented a prototype that facilitates IoT device management using Ethereum.
+\item Tech stack: Solidity on Ethereum, React, Mocha, Node, Docker
+\end{itemize}
+
+\divider
+
+\cvevent{Student Consultant}{358}{Oct 2015 --  MAy 2016}{Helsinki, Finland}
+\begin{itemize}
+\item Was part of a team which utilised service design techniques, and developed a PoC to measure and manage brand perception for clients. 
+\item Tech stack: Javascript/Jquery, SASS, gulp
+\end{itemize}
+\divider
+
+\cvevent{Lead Developer}{Feed of Me}{Nov 2015 -- Mar 2016}{Helsinki, Finland}
+
+\begin{itemize}
+\item Responsible for leading a team of software developers, reviewing their code, user experience of the product(UX), designing the system architecture, testing the project and setting the technical direction of the team.
+\item Tech stack: Java for Android, Photoshop
+\end{itemize}
+
+\divider
+
+\cvevent{Software Engineer}{Cisco Systems}{July 2012 -- Aug 2014}{Bangalore, India}
+
+\begin{itemize}
+\item Responsible for full stack web development and technical customer support in the Product Development Services department.
+\item Tech stack: Java, Javascript, Jqery/Dojo, SVN, Spring hibernate, Selenium
+ \end{itemize}
+
+
+
+
+\end{document}
