@@ -8,6 +8,8 @@ A compact two column, one page Latex Resume. It can also be used as a template.
 * Single page 
 * Vivid purple - grey colours used
 
+### Demo
+
 #### Dependencies
 * AltaCV uses [`fontawesome`](http://www.ctan.org/pkg/fontawesome) and [`academicons`](http://www.ctan.org/pkg/academicons)
 * Loading `academicons` is optional: can be enabled it by adding the `academicons` option to `\documentclass`.
