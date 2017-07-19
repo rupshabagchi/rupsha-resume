@@ -8,9 +8,6 @@ A compact **two column, one page colour** Latex Resume. It can also be used as a
 * Single page 
 * Vivid purple - grey colours used
 
-### 
-
-
 
 #### Dependencies
 * AltaCV uses [`fontawesome`](http://www.ctan.org/pkg/fontawesome) and [`academicons`](http://www.ctan.org/pkg/academicons)
@@ -28,6 +25,7 @@ The LaTeX Project Public License
 LPPL Version 1.3c 2008-05-04
 
 ##### Credits
- Marissa Meyer's BusinessInsider Resume and Overleaf
+
+ Marissa Meyer's BusinessInsider Resume and Overleaf's tex stylist
 
 
