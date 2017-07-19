@@ -10,7 +10,7 @@ A compact **two column, one page colour** Latex Resume. It can also be used as a
 
 ### Demo
 
-Coming soon
+
 
 #### Dependencies
 * AltaCV uses [`fontawesome`](http://www.ctan.org/pkg/fontawesome) and [`academicons`](http://www.ctan.org/pkg/academicons)
