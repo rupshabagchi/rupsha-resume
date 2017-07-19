@@ -8,7 +8,7 @@ A compact **two column, one page colour** Latex Resume. It can also be used as a
 * Single page 
 * Vivid purple - grey colours used
 
-### Demo
+### 
 
 
 
